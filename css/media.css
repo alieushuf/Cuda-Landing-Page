@@ -1,0 +1,178 @@
+@media(max-width:600px){
+    /* Global section   */
+    section{
+        text-align: center;
+        padding: 30px 0px;
+        width: 100%;
+        float: left;
+    }
+    .underline{
+        border-top: 5px dotted rgba(0, 0, 0, 0.486);
+        width: 17%;
+        margin: 15px auto;
+    }
+    /* Home section  */
+    nav{
+        padding: 0px 0px;
+    }
+    .logo-part{
+        width:100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .menu-part{
+        width:100%;
+        margin: 1px;
+        text-align: center;
+        padding: 1px;
+    }
+    .menu-part li{
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    .menu-part a{
+        font-size: 13px;
+    }
+    .menu-part li:hover{
+        margin: 0px 5px;
+        background-color: rgba(0, 0, 0, 0.295);
+        padding: 7px 7px;
+        border-radius: 15px;
+    }
+    .hero-part{
+        margin: 60px 0px;
+    }
+    .hero-part h1{
+        width: 100%;
+        font-size: 23px;
+    }
+    .hero-part a button{
+        width: 35%;
+        margin-top: 50px;
+    }
+    .hero-part a button:hover{
+        border-radius: 15px;
+        transition: ease-in-out 0.6s;
+    }
+    /* Service section  */
+    .service-writing-part {
+        margin-top: 1px;
+    }
+    .service-writing-part h2{
+        font-size: 20px;
+    }
+    .service-box-part{
+        padding-top: 40px;
+        width: 100%;
+        float: left;
+    }
+    .service-box{
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+    } 
+    /* Team Section  */
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+.team-box-part{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+.team-box{
+    width: 50%;
+    float: left;
+    padding: 7px;
+}
+/* skills-box */
+.skills-box{
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.portfolio-box-part{
+    width: 100%;
+    float: left;
+}
+.portfolio-box-part img{
+    height: 100px;
+    width: 150px;
+}
+.portfolio-box-part button{
+    background-color: #17c2a4;
+    color: white;
+    width: 33%;
+    margin-top: 30px;
+    padding: 10px 0px;
+    
+}
+.portfolio-box-part button:hover{
+    background-color: white;
+    color: black;
+    width: 33%;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 5px 0px rgb(36, 204, 14);
+    transition: ease-in-out 0.5s;
+    border-radius: 10%;
+}
+
+/* Say part  */
+.say-writing-part{
+    width: 100%;
+    float: left;
+    margin: 1px 0px;
+}
+.say-box-part-1st{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+}
+.say-box-part-2nd{
+    width: 100%;
+    float: left;
+    margin: 20px 0px;
+}
+.say-box-part-1{
+    width: 20%;
+    float: left;
+
+}
+.say-box-part-1 img{
+    width: 45px;
+    height: 45px;
+}
+.say-box-part-2{
+    width: 30%;
+    float: left;
+    font-size: 10px;
+    text-align: left;
+}
+.say-box-part-2 h3{
+    font-size: 12px;
+    text-align: left;
+}
+/* Final Navigation  */
+
+.final-nav-part{
+
+    padding: 10px 0px;
+}
+.final-nav-part li{
+    display: inline;
+    padding: 0px 3px;
+    
+}
+.final-nav-part a{
+    color: white;
+    font-size: 12px;
+    
+}
+.final-nav-part a:hover{
+    color:#30bae7;
+}
+}
